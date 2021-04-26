@@ -3,6 +3,6 @@ import { FiSearch } from "react-icons/fi";
 
 export default function Search(){
   return(
-    <input className={styles.search} type="text"  placeholder={`SEARCH`}></input>
+    <input className={styles.search} type="text"  placeholder="SEARCH"></input>
   );
 }

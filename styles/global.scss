@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --purple-100: #e3e0ff;
+  --blue-800: #1f1e3b;
+
+
+}
+
+@media(max-width: 1080){
+  html{
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 1080){
+  html{
+    font-size: 87.5%;
+  }
+}
+
+body{
+  color: var(--purple-100);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body, input, textarea, button{
+  font: 500 1rem Poppins, sans-serif;
+  color: var(--purple-100);
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  color: var(--purple-100);
+}
+
+h1{
+  font-size: 2rem;
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+button{
+  cursor: pointer;
+}
+
